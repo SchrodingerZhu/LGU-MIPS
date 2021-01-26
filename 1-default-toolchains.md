@@ -9,7 +9,7 @@ The quickest way to setup a compiler for MIPS(el) is to download it from MUSL's 
 The package to use is [mipsel-linux-musl-cross.tgz](https://musl.cc/mipsel-linux-musl-cross.tgz).  
 (For those who favor in docker images rather than native packages, MUSL also offers an option; please refer to the website if needed.)
 
-The files are installed into `/mipsel`.
+The files are installed into `/mipsel-linux-musl-cross`.
 Basic executables are soft linked into `/usr/bin/` with the following command:
 ```bash
 ln -s /mipsel-linux-musl-cross/bin/mipsel-linux-musl-cc /usr/bin/mcc   
